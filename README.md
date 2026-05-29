@@ -1,6 +1,6 @@
 # Laravel Notification System
 
-Enterprise-grade, production-ready notification system built with Laravel 11, Redis queues, and Pest PHP tests.
+Enterprise-grade, production-ready notification system built with Laravel 13, Redis queues, and Pest PHP tests.
 
 ---
 
@@ -41,7 +41,7 @@ ProcessNotificationJob ──► NotificationChannelManager ──► Channel St
 ## Requirements
 
 - PHP 8.3+
-- Laravel 11
+- Laravel 13
 - MySQL 8+
 - Redis 6+
 - Composer
@@ -508,7 +508,7 @@ It lets you:
 | Composer | Installs PHP packages | `composer --version` |
 | MySQL 8+ | Stores notifications | `mysql --version` |
 | Memurai | Redis for Windows (queue + cache) | Check Windows Services |
-| Laravel 11 | The framework | `php artisan --version` |
+| Laravel 13 | The framework | `php artisan --version` |
 
 ---
 
